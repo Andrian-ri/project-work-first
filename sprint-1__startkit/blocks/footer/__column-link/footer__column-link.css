@@ -1,0 +1,6 @@
+.footer__column-link {
+    display: flex;
+    color: white;
+    margin-bottom: 12px;
+    justify-content: flex-start;
+  }

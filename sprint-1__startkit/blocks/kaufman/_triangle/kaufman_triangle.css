@@ -1,0 +1,10 @@
+.kaufman_triangle {
+    position: absolute;
+    z-index: 0;
+    width: 510px;
+    height: 653px;
+    left: 790px;
+    top: 903.3%;
+    overflow: hidden;
+  }
+  

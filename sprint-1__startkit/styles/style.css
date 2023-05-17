@@ -1,20 +1,17 @@
+
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   display: flex;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
@@ -54,27 +51,27 @@ font-weight: normal;
 }
 
 .header__main-illustration {
-  width: 700px;                /* 765px */
-  height: 508px;               /* 608px */
+  width: 700px;                
+  height: 508px;               
   position: absolute;
-  left: 600px;                 /* 530px */
-  top: 143px;                   /* 44px */
+  left: 600px;                 
+  top: 143px;                   
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+
 .header__square-pic {
-  height: 500px;                /* 568px */
-  width: 500px;                 /* 568px */
+  height: 500px;                
+  width: 500px;                 
   background-color: #2f80ed;
   position: absolute;
-  top: 64px;                     /* 64px */
-  left: 800px;                   /* 725px */
+  top: 64px;                     
+  left: 800px;                   
   z-index: -1;
 }
 
 
 .content {
- /* xz */
+
 }
 
 .two-columns {
@@ -104,7 +101,7 @@ font-weight: normal;
   flex-wrap: nowrap;
   width: 80%;
   justify-content: space-between;
-}
+}  
 
 .two-columns__paragraph {
   line-height: 24px;
@@ -264,6 +261,7 @@ font-weight: 600;
   margin-top: 80px;
   z-index: 3;
 }
+
 .table__heading_theme_dark {
   line-height: 1.15;
   font-size: 20px;
@@ -368,5 +366,5 @@ font-weight: normal;
 .footer__author-position {
   position: absolute;
   margin-top: 103px;
-}
+} 
 
